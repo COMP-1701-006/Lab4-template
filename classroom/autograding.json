@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "test_add_ingredient",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab04.py::test_add_ingredient",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "test_area",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab04.py::test_area",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "test_cake_time",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab04.py::test_cake_time",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "test_prompts",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_lab04.py::test_prompts",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }
+  ]
+}
